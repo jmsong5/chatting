@@ -29,6 +29,7 @@ public class MvcConfig implements WebMvcConfigurer {
                 new ResourceBundleMessageSource();
         ms.setBasenames("messages.commons","messages.validations", "messages.errors");
 
+
         return  ms;
     }
 }
